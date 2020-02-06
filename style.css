@@ -1,0 +1,101 @@
+body{
+    text-align: center;
+background-color: hsl(0, 0%, 98%) ;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+
+
+}
+.samira{
+  background-color: rgb(255, 255, 255);
+  border-top:3px solid hsl(180, 62%, 55%) ;
+  border-radius:6px ;                                                                   
+ 
+}
+.ff{
+    background-color:rgb(255, 255, 255);
+    border-top:3px solid  hsl(0, 78%, 62%);
+    border-radius:6px ;
+   
+}
+.hilmi{
+    background-color:rgb(255, 255, 255);
+   border-top:3px solid  hsl(34, 97%, 64%);
+    border-radius:6px ;
+
+}
+.ZZ{
+    background-color: rgb(255, 255, 255);
+    border-top:3px solid blue ;
+    border-radius:6px ;
+   
+}    
+
+.containr{
+    text-align: center;
+}
+.sadik{
+    
+    text-align: center;
+    display: grid;
+   grid-gap: 2rem;
+
+}
+
+img{
+    margin-left:300px ;
+}
+
+@media only screen and (min-width:1440px){
+
+    .sadik {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+       padding: 0em 10em;
+
+    }
+    .samira{
+       grid-column: 1/2;
+      grid-row: 1/3;
+      align-self: center;
+      }
+      .ff{
+       
+         
+      }
+      .hilmi{
+        grid-column:2/3 ; 
+        grid-row:2/3 ;
+    
+      }
+      .ZZ{
+    grid-row:1/3;
+    align-self: center;
+
+}
+body{
+    margin-top:60px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}    
+
+
+
+
+
+
+
+
+
+    
